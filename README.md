@@ -5,7 +5,7 @@ MailCatcher - is a ruby powered alpine image, based on https://mailcatcher.me. I
 
 ## Features
 
-1. Simpl SMTP server
+1. Simple SMTP server
 2. WEB interface
 
 # Usage
