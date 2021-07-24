@@ -1,11 +1,16 @@
 # MailCatcher
 
+[![Build docker and push](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-image.yml/badge.svg)](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-image.yml)
+
+https://hub.docker.com/r/iliadmitriev/mailcatcher
+
 MailCatcher - is a ruby powered alpine image, based on https://mailcatcher.me. Its purpose is to provide a way of testing applications wich uses emails (i.e. sign in with email or email confirmation)
 
+For amd64(x86_64) and arm64(aarch64)
 
 ## Features
 
-1. Simpl SMTP server
+1. Simple SMTP server
 2. WEB interface
 
 # Usage
@@ -84,3 +89,6 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 docker buildx stop
 docker buildx use default
 ```
+
+GitHub Action
+https://github.com/docker/build-push-action/blob/master/docs/advanced/multi-platform.md
