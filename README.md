@@ -2,6 +2,7 @@
 
 MailCatcher - is a ruby powered alpine image, based on https://mailcatcher.me. Its purpose is to provide a way of testing applications wich uses emails (i.e. sign in with email or email confirmation)
 
+For amd64(x86_64) and arm64(aarch64)
 
 ## Features
 
@@ -84,3 +85,6 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 docker buildx stop
 docker buildx use default
 ```
+
+GitHub Action
+https://github.com/docker/build-push-action/blob/master/docs/advanced/multi-platform.md
