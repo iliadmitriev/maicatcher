@@ -1,5 +1,9 @@
 # MailCatcher
 
+[![Build docker and push](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-image.yml/badge.svg)](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-image.yml)
+
+https://hub.docker.com/r/iliadmitriev/mailcatcher
+
 MailCatcher - is a ruby powered alpine image, based on https://mailcatcher.me. Its purpose is to provide a way of testing applications wich uses emails (i.e. sign in with email or email confirmation)
 
 For amd64(x86_64) and arm64(aarch64)
