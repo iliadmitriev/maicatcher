@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.14
 
 RUN apk add --no-cache ca-certificates openssl
 
@@ -10,7 +10,7 @@ RUN apk add --no-cache \
         libstdc++ \
         sqlite-libs
         
-ARG MAILCATCHER_VERSION=0.7.1
+ARG MAILCATCHER_VERSION=0.8
 
 RUN apk add --no-cache --virtual .build-deps \
             ruby-dev \
