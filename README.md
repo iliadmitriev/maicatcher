@@ -1,6 +1,6 @@
 # MailCatcher
 
-[![Build docker and push](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-image.yml/badge.svg)](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-image.yml)
+[![Build docker release](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-build-release.yaml/badge.svg)](https://github.com/iliadmitriev/mailcatcher/actions/workflows/docker-build-release.yaml)
 
 https://hub.docker.com/r/iliadmitriev/mailcatcher
 
