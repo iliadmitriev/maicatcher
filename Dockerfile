@@ -21,6 +21,13 @@ RUN apk add --no-cache --virtual .build-deps \
         && apk del .build-deps
         
         
+        
+ENV USER mailcatcher
+
+RUN addgroup -S $USER -g 1000 && adduser -S $USER -G $USER -u 1000
+
+USER $USER
+
 EXPOSE 1080 1025
 
 CMD ["mailcatcher", "--ip=0.0.0.0", "--foreground"]
